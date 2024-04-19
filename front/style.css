@@ -1,0 +1,378 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    ---branco: white;
+    ---azul-claro: rgba(18, 48, 76, 1);
+    ---azul-escuro: rgba(9, 23, 36, 1);
+    ---vermelho: rgba(246, 59, 59, 1);
+    ---cinza1: rgba(205, 205, 205, 1);
+    ---cinza2: rgba(155, 155, 155, 1);
+    ---cinza3: rgba(233, 233, 233, 1);
+    ---cinza4: rgba(205, 205, 205, 1);
+}
+
+/*---------------------fontes--------------------*/
+
+.hammersmith-one-regular {
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.red-hat {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*---------------------header--------------------*/
+
+header {
+    display: flex;
+    padding: 0.5%;
+    background-color: var(---cinza3);
+}
+
+#logo {
+    width: 9%;
+}
+
+#facebook {
+    padding-left: 50%;
+    padding-right: 1%;
+    width: 1.43vw;
+    height: 3vh;
+}
+
+#instagram {
+    padding-left: 1%;
+    width: 1.4vw;
+    height: 3vh;
+}
+
+.palavras-header {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    color: var(---azul-claro);
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 5%;
+    padding-left: 15%;
+}
+
+#botoes-header {
+    display: flex;
+    align-items: center;
+}
+
+.redes_sociais {
+    display: flex;
+    gap: 35%;
+}
+
+/*---------------------main--------------------*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(---azul-escuro);
+}
+
+.botao-1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    padding: 2vh;
+    width: 30vw;
+    height: 10vh;
+    background-color: var(---vermelho);
+    color: white;
+    border-radius: 1vh;
+    border: none;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+
+#section-1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+}
+
+#section-1 span {
+    position: absolute;
+    padding-top: 30vh;
+}
+
+.h1-2-span {
+    margin-bottom: 6vh;
+    font-family: "Hammersmith One", sans-serif;
+    color: white;
+    font-size: 2rem;
+}
+
+.section-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 16vh;
+}
+
+#section-Moto-Truck-Envios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3vh;
+    color: var(---branco);
+    font-family: "Hammersmith One", sans-serif;
+}
+
+.section_envios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.bloco_infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco_infos h3{
+    margin-bottom: 5%;
+    font-weight: bold
+}
+
+.bloco_infos p {
+    width: 50%;
+    text-align: center;
+}
+
+#MotoEnvios {
+    background-color: var(---vermelho);
+    height: 35vh;
+    width: 17vw;
+    border-radius: 2%;
+    font-weight: bold
+}
+
+#TruckEnvios {
+    background-color: var(---cinza1);
+    height: 35vh;
+    width: 17vw;
+    border-radius: 2%;
+    font-weight: bold
+}
+
+#img-size {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 65%;
+}
+
+.p-envios {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3rem;
+}
+
+.h3-envios{
+    font-family: "Hammersmith One", sans-serif;
+    font-size: 1.7rem;
+}
+
+
+#section-texto-1 {
+    display: flex;
+    gap: 20vw;
+    margin-bottom: 3vh;
+}
+
+.titulo-section1 {
+    font-family: "Hammersmith One", sans-serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 4.5%;
+}
+
+.titulo-section2 {
+    font-family: "Hammersmith One", sans-serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 0%;
+}
+
+#section-texto-2 {
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    width: 30vw;
+    padding-left: 5%;
+}
+
+#section-texto-3 {
+    width: 40vw;
+    text-align: justify;
+}
+
+#entregador {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    margin-bottom: 12vh;
+}
+
+#mapa {
+    width: 75%;
+    height: 75%;
+    opacity: 0.4;
+    border-radius: 0.5vh;
+}
+
+.h1-2 {
+    align-items: center;
+    margin-bottom: 5vh;
+    font-family: "Hammersmith One", sans-serif;
+    color: white;
+    font-size: 2rem;
+}
+
+.p-main {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 1.3rem;
+    padding-left: center;
+    padding-top: 8%;
+}
+
+.p-main2 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 1.3rem;
+    padding-left: 4.5%;
+}
+
+
+
+#section-Pretende-Enviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3vh;
+    color: var(---branco);
+    font-family: "Hammersmith One", sans-serif;
+}
+
+.section_Pretende {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#id_Pretende_Simule {
+    background-color: var(---cinza1);
+    height: 35vh;
+    width: 17vw;
+    border-radius: 2%;
+    font-weight: bold
+}
+
+#id_Pretende_Moto {
+    background-color: var(---vermelho);
+    height: 35vh;
+    width: 17vw;
+    border-radius: 2%;
+    font-weight: bold
+}
+
+#id_Pretende_Truck {
+    background-color: var(---cinza1);
+    height: 35vh;
+    width: 17vw;
+    border-radius: 2%;
+    font-weight: bold
+}
+
+#section-input-main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-main {
+    font-family: "Hammersmith One", sans-serif;
+    padding: 2.5vh;
+    border-radius: 0.5vh;
+    width: 30vw;
+    height: 1vh;
+    background-color: var(---cinza4);
+    color: var(---cinza2);
+    margin-bottom: 3%;
+    border: none;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+/*---------------------foooter--------------------*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    background-color: var(---cinza3);
+}
+
+#contatos-footer {
+    font-family: "Hammersmith One", sans-serif;
+    margin-bottom: 2.5vh;
+    color: var(---vermelho);
+}
+
+.mb-15 {
+    margin-bottom: 2.5vh;
+}
+
+.input-footer {
+    font-family: "Hammersmith One", sans-serif;
+    padding: 1.5vh;
+    border-radius: 0.5vh;
+    width: 35%;
+    background-color: var(---cinza4);
+    color: var(---cinza2);
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+#botao-enviar {
+    font-family: "Hammersmith One", sans-serif;
+    padding: 1.5vh;
+    width: 12%;
+    color: var(---vermelho);
+    background-color: var(---azul-claro);
+    border-radius: 1vh;
+    border: none;
+    font-weight: 700;
+    font-size: 1rem;
+}
